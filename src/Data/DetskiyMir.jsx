@@ -1,14 +1,56 @@
 const data = [
   {
     to: `/detskiy-mir`,
-    img: `https://apollo-olx.cdnvideo.ru/v1/files/fzkr5bcrssox1-UZ/image;s=644x461`,
+    img: `https://apollo-olx.cdnvideo.ru/v1/files/coxoqhrddejr-UZ/image;s=1000x700`,
     title: `Надувной кресло. БЕСПЛАТНО Доставка..`,
     price: `500 000 so’m`,
     location: `Toshkent, Uchtepa tumani Kecha 18:38`,
-    details:{
-      
+    like: false,
+    details: {
+      title:"Продаетса двух этажный кровать",
+      price:"300 у.е.",
+      imgs: [
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/coxoqhrddejr-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/udrupjr2t8ku2-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/iqbpw5fsc9wm3-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/6fhajdze7m282-UZ/image;s=1000x700',
+        },
+      ],
+      content: [
+        {
+          p: 'Продаётся двух этажный кровать новый белого цвета очень прочный',
+        },
+        {
+          p: 'Длина 180 см',
+        },
+        {
+          p: 'Ширина 80 см',
+        },
+        {
+          p: 'Помешаются взрослые тоже',
+        },
+        {
+          p: 'Ikki etajlik krovat sotiladi yangi oq rangda juda mustahkam',
+        },
+        {
+          p: 'Boyi 180 sm',
+        },
+        {
+          p: 'Eni 80 sm',
+        },
+        {
+          p: 'Kattalarham bemalol yotishlari mumkun',
+        },
+      ],
     },
-    id:'1'
+    id: '1',
   },
   {
     to: `/detskiy-mir`,
@@ -16,7 +58,52 @@ const data = [
     title: `Детский беговел или велобег это среднее между велосипедом и самокатом.`,
     price: `350 000 so’m`,
     location: `Toshkent, Uchtepa tumani 30 iyul`,
-    id:'2'
+    details: {
+      title:"Продаетса двух этажный кровать",
+      price:"300 у.е.",
+      imgs: [
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/1kf22bxga4ev3-UZ/image;s=644x461',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/udrupjr2t8ku2-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/iqbpw5fsc9wm3-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/6fhajdze7m282-UZ/image;s=1000x700',
+        },
+      ],
+      content: [
+        {
+          p: 'Продаётся двух этажный кровать новый белого цвета очень прочный',
+        },
+        {
+          p: 'Длина 180 см',
+        },
+        {
+          p: 'Ширина 80 см',
+        },
+        {
+          p: 'Помешаются взрослые тоже',
+        },
+        {
+          p: 'Ikki etajlik krovat sotiladi yangi oq rangda juda mustahkam',
+        },
+        {
+          p: 'Boyi 180 sm',
+        },
+        {
+          p: 'Eni 80 sm',
+        },
+        {
+          p: 'Kattalarham bemalol yotishlari mumkun',
+        },
+      ],
+    },
+    id: '2',
+    like: false,
   },
   {
     to: `/detskiy-mir`,
@@ -24,7 +111,52 @@ const data = [
     title: `Машина - конструктор Mega Bloks, First builders, Build & race rig.`,
     price: `45 у.е.`,
     location: `Toshkent, Yakkasaroy tumani 1 avg.`,
-    id:'3'
+    details: {
+      title:"Продаетса двух этажный кровать",
+      price:"300 у.е.",
+      imgs: [
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/ohx8hgy4qwyu3-UZ/image;s=644x461',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/udrupjr2t8ku2-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/iqbpw5fsc9wm3-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/6fhajdze7m282-UZ/image;s=1000x700',
+        },
+      ],
+      content: [
+        {
+          p: 'Продаётся двух этажный кровать новый белого цвета очень прочный',
+        },
+        {
+          p: 'Длина 180 см',
+        },
+        {
+          p: 'Ширина 80 см',
+        },
+        {
+          p: 'Помешаются взрослые тоже',
+        },
+        {
+          p: 'Ikki etajlik krovat sotiladi yangi oq rangda juda mustahkam',
+        },
+        {
+          p: 'Boyi 180 sm',
+        },
+        {
+          p: 'Eni 80 sm',
+        },
+        {
+          p: 'Kattalarham bemalol yotishlari mumkun',
+        },
+      ],
+    },
+    id: '3',
+    like: false,
   },
   {
     to: `/detskiy-mir`,
@@ -32,7 +164,52 @@ const data = [
     title: `Кровать 2 этажный цена в нутри городе доставка и зборкой`,
     price: `2 000 000 so’m`,
     location: `Toshkent, Uchtepa tumani Kecha 18:38`,
-    id:'4'
+    details: {
+      title:"Продаетса двух этажный кровать",
+      price:"300 у.е.",
+      imgs: [
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/8qz6jhrkxax31-UZ/image;s=644x461',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/udrupjr2t8ku2-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/iqbpw5fsc9wm3-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/6fhajdze7m282-UZ/image;s=1000x700',
+        },
+      ],
+      content: [
+        {
+          p: 'Продаётся двух этажный кровать новый белого цвета очень прочный',
+        },
+        {
+          p: 'Длина 180 см',
+        },
+        {
+          p: 'Ширина 80 см',
+        },
+        {
+          p: 'Помешаются взрослые тоже',
+        },
+        {
+          p: 'Ikki etajlik krovat sotiladi yangi oq rangda juda mustahkam',
+        },
+        {
+          p: 'Boyi 180 sm',
+        },
+        {
+          p: 'Eni 80 sm',
+        },
+        {
+          p: 'Kattalarham bemalol yotishlari mumkun',
+        },
+      ],
+    },
+    id: '4',
+    like: false,
   },
   {
     to: `/detskiy-mir`,
@@ -40,7 +217,52 @@ const data = [
     title: `Детский беговел или велобег это среднее между велосипедом и самокатом.`,
     price: `180 000 so’m`,
     location: `Buxoro Kecha 20:40`,
-    id:'5'
+    details: {
+      title:"Продаетса двух этажный кровать",
+      price:"300 у.е.",
+      imgs: [
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/6iki1egzxpfj-UZ/image;s=644x461',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/udrupjr2t8ku2-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/iqbpw5fsc9wm3-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/6fhajdze7m282-UZ/image;s=1000x700',
+        },
+      ],
+      content: [
+        {
+          p: 'Продаётся двух этажный кровать новый белого цвета очень прочный',
+        },
+        {
+          p: 'Длина 180 см',
+        },
+        {
+          p: 'Ширина 80 см',
+        },
+        {
+          p: 'Помешаются взрослые тоже',
+        },
+        {
+          p: 'Ikki etajlik krovat sotiladi yangi oq rangda juda mustahkam',
+        },
+        {
+          p: 'Boyi 180 sm',
+        },
+        {
+          p: 'Eni 80 sm',
+        },
+        {
+          p: 'Kattalarham bemalol yotishlari mumkun',
+        },
+      ],
+    },
+    id: '5',
+    like: false,
   },
   {
     to: `/detskiy-mir`,
@@ -48,7 +270,52 @@ const data = [
     title: `Новые детские коляски Трансформер со съёмным блоком`,
     price: `70 у.е`,
     location: `Toshkent, Mirzo-Ulug‘bek tumani Bugun 14:41`,
-    id:'6'
+    details: {
+      title:"Продаетса двух этажный кровать",
+      price:"300 у.е.",
+      imgs: [
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/zz65d21v05nb-UZ/image;s=644x461',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/udrupjr2t8ku2-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/iqbpw5fsc9wm3-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/6fhajdze7m282-UZ/image;s=1000x700',
+        },
+      ],
+      content: [
+        {
+          p: 'Продаётся двух этажный кровать новый белого цвета очень прочный',
+        },
+        {
+          p: 'Длина 180 см',
+        },
+        {
+          p: 'Ширина 80 см',
+        },
+        {
+          p: 'Помешаются взрослые тоже',
+        },
+        {
+          p: 'Ikki etajlik krovat sotiladi yangi oq rangda juda mustahkam',
+        },
+        {
+          p: 'Boyi 180 sm',
+        },
+        {
+          p: 'Eni 80 sm',
+        },
+        {
+          p: 'Kattalarham bemalol yotishlari mumkun',
+        },
+      ],
+    },
+    id: '6',
+    like: false,
   },
   {
     to: `/detskiy-mir`,
@@ -56,7 +323,52 @@ const data = [
     title: `Качели на пружинке в ассртименте`,
     price: `2 300 000 so’m`,
     location: `Toshkent, Yunusobod tumani Bugun 14:41`,
-    id:'7'
+    details: {
+      title:"Продаетса двух этажный кровать",
+      price:"300 у.е.",
+      imgs: [
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/8m970mto9bd5-UZ/image;s=644x461',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/udrupjr2t8ku2-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/iqbpw5fsc9wm3-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/6fhajdze7m282-UZ/image;s=1000x700',
+        },
+      ],
+      content: [
+        {
+          p: 'Продаётся двух этажный кровать новый белого цвета очень прочный',
+        },
+        {
+          p: 'Длина 180 см',
+        },
+        {
+          p: 'Ширина 80 см',
+        },
+        {
+          p: 'Помешаются взрослые тоже',
+        },
+        {
+          p: 'Ikki etajlik krovat sotiladi yangi oq rangda juda mustahkam',
+        },
+        {
+          p: 'Boyi 180 sm',
+        },
+        {
+          p: 'Eni 80 sm',
+        },
+        {
+          p: 'Kattalarham bemalol yotishlari mumkun',
+        },
+      ],
+    },
+    id: '7',
+    like: false,
   },
   {
     to: `/detskiy-mir`,
@@ -64,7 +376,52 @@ const data = [
     title: `Теплая куртка.`,
     price: `200 000 so’m`,
     location: `Toshkent, Mirobod tumani Bugun 14:41`,
-    id:'8'
-  }
-]
+    details: {
+      title:"Продаетса двух этажный кровать",
+      price:"300 у.е.",
+      imgs: [
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/fzkr5bcrssox1-UZ/image;s=644x461',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/udrupjr2t8ku2-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/iqbpw5fsc9wm3-UZ/image;s=1000x700',
+        },
+        {
+          img: 'https://apollo-olx.cdnvideo.ru/v1/files/6fhajdze7m282-UZ/image;s=1000x700',
+        },
+      ],
+      content: [
+        {
+          p: 'Продаётся двух этажный кровать новый белого цвета очень прочный',
+        },
+        {
+          p: 'Длина 180 см',
+        },
+        {
+          p: 'Ширина 80 см',
+        },
+        {
+          p: 'Помешаются взрослые тоже',
+        },
+        {
+          p: 'Ikki etajlik krovat sotiladi yangi oq rangda juda mustahkam',
+        },
+        {
+          p: 'Boyi 180 sm',
+        },
+        {
+          p: 'Eni 80 sm',
+        },
+        {
+          p: 'Kattalarham bemalol yotishlari mumkun',
+        },
+      ],
+    },
+    id: '8',
+    like: false,
+  },
+];
 export default data;
