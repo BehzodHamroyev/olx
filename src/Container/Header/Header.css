@@ -1,0 +1,25 @@
+.Navbar{
+    position: fixed;
+    top:0;
+     left: 0;
+     height: 80px;
+     width: 100%;
+     background-color: #002f34;
+     align-items: center;
+
+}
+.Navbar img{
+    width: 80px !important;
+}
+a{
+
+    text-decoration: none !important;
+    font-size: 20px;
+}
+.User{
+    color: grey;
+}
+.User:hover{
+    color: rgba(255, 255, 255, 0.871)
+
+}
