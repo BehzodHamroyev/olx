@@ -17,6 +17,7 @@ SwiperCore.use([Pagination, Navigation]);
 const Product = (props) => {
   let details;
   const { category, id } = useParams();
+  console.log(category, id);
   const data = Datas[category];
   const pagination = {
     clickable: true,
@@ -37,7 +38,7 @@ const Product = (props) => {
                   navigation={true}
                   className="mySwiper"
                 >
-                  {v.details.imgs.map((v, i) => {
+                  {v.details?.imgs.map((v, i) => {
                     return (
                       <SwiperSlide>
                         <img src={v.img} alt="" />
@@ -104,13 +105,14 @@ const Product = (props) => {
               </div>
             </div>
             <div className="col-md-8 mt-3 col-12">
-            <div className="bg-white p-4">
-            <p className="fs-2">{v.details.title}</p>
-              <h2>{v.details.price}</h2>
-              <h5>Tavsif</h5>
-              {v.details.content.map((value, index) => <p>{value.p}</p>  
-              )}
-            </div>
+              <div className="bg-white p-4">
+                <p className="fs-2">{v.details?.title}</p>
+                <h2>{v.details?.price}</h2>
+                <h5>Tavsif</h5>
+                {v.details.content.map((value, index) => (
+                  <p>{value.p}</p>
+                ))}
+              </div>
             </div>
           </div>
         </ProductWraper>

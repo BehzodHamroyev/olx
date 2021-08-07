@@ -1,32 +1,34 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import './Footer.css';
+import ThemeContext from '../Context/theme-context';
+import FooterWraper from './FooterWraper';
 const data = [
   {
     links: [
       { to: '/mobilApp', link: 'Mobil ilovalar' },
       { to: '/help', link: 'Yordam' },
-      { to: '/payment', link: 'Pullik xizmatlar' },
-      { to: '/business', link: 'OLX-da biznes' },
-      { to: '/advertising', link: 'Saytda reklama' },
-      { to: '/articils', link: 'Foydalanish shartlari' },
-      { to: '/secret', link: 'Maxfiylik siyosati' },
+      { to: '/', link: 'Pullik xizmatlar' },
+      { to: '/', link: 'OLX-da biznes' },
+      { to: '/', link: 'Saytda reklama' },
+      { to: '/', link: 'Foydalanish shartlari' },
+      { to: '/', link: 'Maxfiylik siyosati' },
     ],
   },
   {
     links: [
-      { link: 'Qanday sotib olish va sotish?', to: '/howitWork' },
-      { link: 'Xavfsizlik qoidalari', to: '/safeUser' },
-      { link: 'Sayt xaritasi', to: '/siteMap' },
-      { link: 'Mintaqalar  xaritasi', to: '/siteMap/region' },
-      { link: 'Career', to: '/Career' },
-      { link: 'Teskari aloqa', to: '/contact' },
+      { link: 'Qanday sotib olish va sotish?', to: '/' },
+      { link: 'Xavfsizlik qoidalari', to: '/' },
+      { link: 'Sayt xaritasi', to: '/' },
+      { link: 'Mintaqalar  xaritasi', to: '/' },
+      { link: 'Career', to: '/' },
+      { link: 'Teskari aloqa', to: '/' },
     ],
   },
 ];
 const Footer = () => {
+  const { theme, setTheme,colors } = useContext(ThemeContext);
   return (
-    <div className="Footer  ">
+    <FooterWraper Colors={colors}>
       <div className="row container  m-0">
         {data.map((v, i) => {
           return (
@@ -56,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </FooterWraper>
   );
 };
 

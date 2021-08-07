@@ -1,12 +1,16 @@
-import React from 'react';
-import './Containers.css';
+import React, { useContext } from 'react';
+import ContainersWraper from './ContainersWraper.jsx';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import ThemeContext from '../Context/theme-context.jsx';
+import Input from '../../Components/input/Input'
 const Containers = (props) => {
+  const {colors} = useContext(ThemeContext)
   return (
     <div className="Containers">
       <Header></Header>
-      <div className="children">{props.children}</div>
+      <Input/>
+      <ContainersWraper Colors={colors}>{props.children}</ContainersWraper>
       <Footer></Footer>
     </div>
   );

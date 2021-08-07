@@ -1,4 +1,3 @@
-import './PremiumProducts.css';
 import React from 'react';
 import { FaHeart } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -6,11 +5,12 @@ import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
   } from 'reactstrap';
+import PremiumProductsWraper from './PremiumProductsWraper';
 
 const PremiumProducts = (props) => {
   return (
     <div className="col-md-3 mt-4 ">
-      <Link to={props.data.to} className="PremiumProducts  w-100">
+     <PremiumProductsWraper> <Link to={`/${props.data.to}/${props.data.id}`} className="PremiumProducts  w-100">
         <div>
           <img src={props.data.img} className="w-100" alt="" />
         </div>
@@ -27,6 +27,7 @@ const PremiumProducts = (props) => {
           </div>
         </div>
       </Link>
+      </PremiumProductsWraper>
     </div>
   );
 };
