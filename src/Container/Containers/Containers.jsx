@@ -6,6 +6,7 @@ import ThemeContext from '../Context/theme-context.jsx';
 import Input from '../../Components/input/Input'
 const Containers = (props) => {
   const {colors} = useContext(ThemeContext)
+  console.log(colors);
   return (
     <div className="Containers">
       <Header></Header>

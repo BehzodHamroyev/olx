@@ -26,7 +26,7 @@ const Header = () => {
             <span className=" mx-3">|</span>
             <span className="Ru">Ru</span>
           </div>
-          <FaHeart className="text-white" />
+          <FaHeart className="heart" />
           <Link className="User" to="/">
             <FaUser />
             <span className="ms-3">Mening Profilim</span>

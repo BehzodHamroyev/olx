@@ -6,6 +6,12 @@ const FooterWraper=styled.div`
     padding: 40px 0;
     background-color: ${props=>props.Colors.footerBac} !important;
      color: ${props=>props.Colors.color} !important;
+     a {
+      color: ${(props) => props.Colors.bodyColor} !important ;
+      text-decoration: none;
+      &:hover {
+        color: ${(props) => props.Colors.bodyColor} !important ;
+      }}
 
 }
  `

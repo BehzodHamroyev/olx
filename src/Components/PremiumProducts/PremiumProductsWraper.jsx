@@ -8,12 +8,9 @@ const PremiumProductsWraper = styled.div`
     }
     .title {
       font-weight: bold;
-      &:hover {
-        color: rgb(0, 47, 52);
-      }
     }
     .content {
-      height: 220px;
+      height: 180px;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -27,6 +24,9 @@ const PremiumProductsWraper = styled.div`
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+    }
+    .shadows {
+      box-shadow: 0 4px 8px red;
     }
   }
 `;

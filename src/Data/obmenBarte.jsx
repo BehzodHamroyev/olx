@@ -429,13 +429,6 @@ const data = [
         {
           img: 'https://apollo-olx.cdnvideo.ru/v1/files/1gbf3be3itav1-UZ/image;s=1000x700',
         },
-     
-        {
-          img: 'https://apollo-olx.cdnvideo.ru/v1/files/xgaoojur6emm1-UZ/image;s=1000x700',
-        },
-        {
-          img: 'https://apollo-olx.cdnvideo.ru/v1/files/hq9rnhsls59g3-UZ/image;s=1000x700',
-        },
       ],
       content: [
         {

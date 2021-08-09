@@ -21,7 +21,7 @@ const data = [
       { link: 'Sayt xaritasi', to: '/' },
       { link: 'Mintaqalar  xaritasi', to: '/' },
       { link: 'Career', to: '/' },
-      { link: 'Teskari aloqa', to: '/' },
+      { link: 'Teskari aloqa', to: '/"' },
     ],
   },
 ];

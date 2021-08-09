@@ -25,6 +25,9 @@ a{
 .User{
     color: grey;
 }
+.heart{
+    color: ${props=>props.Color.heart} !important;
+}
 .User:hover{
     color: rgba(255, 255, 255, 0.871)
 

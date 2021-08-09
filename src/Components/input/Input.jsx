@@ -1,16 +1,13 @@
  import {FaMapMarkerAlt,FaSearch,FaTimes} from 'react-icons/fa'
 import React, { useContext } from "react";
 import InputWraper from "./InputWraper";
-import styled from "styled-components";
 import ThemeContext from "../../Container/Context/theme-context";
 import { useState } from "react";
 
 const Input = (props) => {
-//   const { colors } = styled(ThemeContext);
 const { theme,setTheme,colors }= useContext(ThemeContext)
   const [value, setValue] = useState("");
   console.log(theme,colors);
-
   const typing = (event) => {
     setValue(event.target.value);
   };
@@ -19,8 +16,8 @@ const { theme,setTheme,colors }= useContext(ThemeContext)
   };
 
   return (
-    <InputWraper className="search my-5" colors={colors}>
-      <div className="container pt-5">
+    <InputWraper className="search " Colors={colors}>
+      <div className="container  pt-5">
         <form className="form-bg p-4 w-100" action="">
           <div className="row">
             <div className="col-lg-7 mb-4 mb-lg-0">
@@ -29,7 +26,7 @@ const { theme,setTheme,colors }= useContext(ThemeContext)
                 <input
                   onChange={typing}
                   value={value}
-                  className="input ms-3 w-75"
+                  className="input rounded  ms-3 w-75"
                   type="text"
                   placeholder="753 335 products  "
                 />
