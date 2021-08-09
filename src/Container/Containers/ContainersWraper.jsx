@@ -4,6 +4,7 @@ const ContainersWraper = styled.div`
   & {
     padding: 100px 0 0 40px;
     min-height: 500px !important;
+
     background-color: ${(props) => props.Colors.body} !important;
     color: ${(props) => props.Colors.bodyColor} !important ;
     a {
@@ -12,8 +13,8 @@ const ContainersWraper = styled.div`
       &:hover {
         color: ${(props) => props.Colors.bodyColor} !important ;
       }
-      .heart{
-          color:  ${(props) => props.Colors.heart} !important ; 
+      .heart {
+        color: ${(props) => props.Colors.heart} !important ;
       }
     }
   }
